@@ -1,0 +1,25 @@
+.menu{
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover{
+    background-color: red;
+}
